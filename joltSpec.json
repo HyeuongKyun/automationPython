@@ -1,0 +1,49 @@
+[
+    {
+        "operation": "shift",
+        "spec": {
+            "status": "&0",
+            "message": "&0",
+            "data": {
+                "OutBlock1": {
+                    "*": {
+                        "kyc_invt_incl_grad_code": "data.OutBlock1[&1].kycInvtInclGradCode",
+                        "ques_scor": "data.OutBlock1[&1].quesScor",
+                        "kyc_vald_prd_mtrt_date": "data.OutBlock1[&1].kycValdPrdMtrtDate",
+                        "kyc_invt_rcmd_cls_code": "data.OutBlock1[&1].kycInvtRcmdClsCode",
+                        "kyc_spcl_invr_yn": "data.OutBlock1[&1].kycSpclInvrYn",
+                        "kyc_dvpd_epmd_code": "data.OutBlock1[&1].kycDvpdEpmdCode",
+                        "entt_ivic_grcd": "data.OutBlock1[&1].enttIvicGrcd",
+                        "trust_ivic_grcd": "data.OutBlock1[&1].trustIvicGrcd",
+                        "trust_prod_grcd": "data.OutBlock1[&1].trustProdGrcd",
+                        "wrap_prod_grad": "data.OutBlock1[&1].wrapProdGrad",
+                        "trust_acit_yn": "data.OutBlock1[&1].trustAcitYn",
+                        "wa_hldn_yn": "data.OutBlock1[&1].waHldnYn",
+                        "entt_kyc_mtrt_date": "data.OutBlock1[&1].enttKycMtrtDate",
+                        "trust_kyc_mtrt_date": "data.OutBlock1[&1].trustKycMtrtDate",
+                        "unfit_ntic_csnu": "data.OutBlock1[&1].unfitNticCsnu"
+                    }
+                },
+                "OutBlock2": {
+                    "*": {
+                        "acno": "data.OutBlock2[&1].acno",
+                        "asno": "data.OutBlock2[&1].asno",
+                        "ui_acnt_prnm": "data.OutBlock2[&1].uiAcntPrnm",
+                        "kyc_prod_grad_code": "data.OutBlock2[&1].kycProdGradCode",
+                        "unfit_yn": "data.OutBlock2[&1].unfitYn",
+                        "anxt_aprt_yn": "data.OutBlock2[&1].anxtAprtYn"
+                    }
+                },
+                "message": {
+                    "msg_code": "data.message.msgCode",
+                    "sub_msg": "data.message.subMsg",
+                    "msg_prepared": "data.message.msgPrepared",
+                    "err_msg_show_method": "data.message.errMsgShowMethod",
+                    "err_msg_attr_set": "data.message.errMsgAttrSet",
+                    "is_app_err": "data.message.isAppErr",
+                    "main_msg": "data.message.mainMsg"
+                }
+            }
+        }
+    }
+]
